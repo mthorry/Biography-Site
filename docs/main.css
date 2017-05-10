@@ -1,0 +1,211 @@
+body {
+  padding-top: 10px;
+  position: relative;
+  background-image: url(img/bkg.jpg);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: #3e3e3e;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: #252525;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  color: #3e3e3e;
+}
+
+a {
+  font-family: "Dosis", sans-serif;
+  color: #181818;
+}
+
+.jumbotron {
+  background-image: url(img/jumbo.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 300px 15px;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+
+div.navbar-header a {
+  font-family: "Playfair Display";
+  font-weight: bolder;
+}
+
+ul.navbar-right a {
+  font-family: "Dosis";
+  font-weight: bolder;
+}
+
+.paragraph {
+  padding: 15%;
+  font-size: 150%;
+  position: relative;
+}
+
+.paragraph strong {
+  font-weight: bolder;
+  color: black;
+}
+
+.pict {
+  position: relative;
+  padding: 15px;
+  width: 75%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.portrait {
+  position: relative;
+  padding: 15px;
+  width: 50%;
+  max-width: 425px;
+  min-width: 300px;
+}
+
+.col-md-4 {
+  background-color: #c0c0c0;
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-size: 125%;
+  z-index: -1;
+}
+
+.footer h1 {
+  padding-bottom: 0px;
+  margin-bottom: -5px;
+  z-index: 1;
+}
+
+#teach a {
+  color: #252525;
+  text-decoration: underline;
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.imgWrap #imgDescription {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 24px;
+  margin-top: 24px;
+  padding: 5px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: #3e3e3e;
+  max-width: 300px;
+  opacity: 0.9;
+}
+
+
+/****   HOVER STYLES    ****/
+
+.imgWrap:hover #imgDescription {
+  display: table-caption;
+  text-align: center;
+}
+
+img:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+
+/* Carousel base class */
+.carousel {
+  height: 800px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .slide1{
+  height: 800px;
+  background-image: url(img/jumbo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .slide2{
+  height: 800px;
+  background-image: url(img/kiddos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .slide3{
+  height: 800px;
+  background-image: url(img/grad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-height: 800px;
+}
+
+.carousel h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: white;
+}
+
+.carousel p {
+  font-family: "Dosis", sans-serif;
+  color: white;
+}
+
+/*.carousel-inner > .slide1 {
+  background-image: url(img/jumbo.jpg);
+}*/
+
+@media (min-width: 768px) {
+    .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+}
+
+
